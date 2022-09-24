@@ -1,6 +1,6 @@
 ## css/canvas动画合集
-
-## PR格式
+- 收集css和canvas动画,用vue展示使用结果;欢迎贡献代码。
+#### PR格式
 - 请使用html格式化后在提交
 - css动画在'/animation/css'目录下，canvas动画在'/animation/canvas'
 - 不要使用图片
@@ -19,6 +19,8 @@
       ├───...  
 ```
 
-## [地址](http://www.huafeng.site:3000)
+#### [展示地址](http://www.huafeng.site:3000)
 
-## 下个:健康码气球背景
+#### 下个示例
+  - 健康码气球背景
+
