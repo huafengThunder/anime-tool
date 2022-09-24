@@ -1,0 +1,48 @@
+{
+  "name": "anime-tool",
+  "version": "1.0.0",
+  "author": "infogaming",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --config config/webpack.dev.conf.js",
+    "build": "webpack --config config/webpack.prod.conf.js",
+    "lint": "eslint --fix --ext .ts,.vue src"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.18.9",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "@babel/preset-typescript": "^7.18.6",
+    "@typescript-eslint/eslint-plugin": "^5.38.0",
+    "@typescript-eslint/parser": "^5.38.0",
+    "@vue/compiler-sfc": "^3.2.39",
+    "@vue/eslint-config-standard": "^8.0.1",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint-plugin-vue": "^9.5.1",
+    "fork-ts-checker-webpack-plugin": "^7.2.13",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "node-sass": "^7.0.3",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "terser-webpack-plugin": "^5.3.6",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.3",
+    "vue-loader": "^17.0.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "eslint": "^8.23.1",
+    "pinia": "^2.0.22",
+    "vue": "^3.2.36"
+  }
+}
